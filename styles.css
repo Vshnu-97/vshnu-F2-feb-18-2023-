@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+table {
+border: 1px solid black;
+
+border-collapse: collapse;
+width: 100%;
+}
+th,
+td {
+text-align: center;
+padding: 10px;
+border: 2px solid white;
+}
+th {
+background-color: black;
+}
+.status {
+font-weight: bold;
+}
+.status.Returned {
+color: green;
+}
+.status.Not-Returned {
+color: red;
+}
+.status {
+cursor: pointer;
+}
+th{
+color: white;
+}
+h1{
+margin-left: 20px;
+color: white;
+}
+label{
+color: white;
+}
+td{
+color: white;
+}
+label{
+margin-left: 20px;
+margin-right: 20px;
+}
+button{
+width: 25%;
+padding: 5px;
+margin-top: 10px;
+margin-left: 20px;
+}
+#issued-to{
+margin-left: 15px;
+}
+input{
+border: 1px solid white;
+background-color: black;
+padding: 5px;
+width: 20%;
+color: white;
+}
